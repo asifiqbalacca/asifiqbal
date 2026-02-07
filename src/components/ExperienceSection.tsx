@@ -5,7 +5,6 @@ const ExperienceSection = () => {
     {
       client: "MR. DIY",
       type: "Inventory Count Assignment",
-      period: "Dec 2025 – Present",
       responsibilities: [
         "Conducted physical inventory counts at MR. DIY retail locations",
         "Reconciled stock with QubeERP records for accuracy verification",
@@ -16,7 +15,6 @@ const ExperienceSection = () => {
     {
       client: "KANSAI NEROLAC PAINTS (BANGLADESH) LTD.",
       type: "Audit Assignment",
-      period: "Previous",
       responsibilities: [
         "Executed audit testing across major financial statement areas",
         "Performed vouching, reconciliations, confirmations, and analytical reviews",
@@ -54,10 +52,7 @@ const ExperienceSection = () => {
                     HODA VASI CHOWDHURY & CO
                   </h3>
                   <p className="text-muted-foreground">Chartered Accountants</p>
-                  <div className="inline-flex items-center gap-2 px-3 py-1 bg-gold/10 text-gold rounded-full text-sm font-medium mt-2">
-                    <Calendar size={14} />
-                    Trainee Accountant • Dec 2025 – Present
-                  </div>
+                  <p className="text-gold font-medium text-sm mt-2">Trainee Accountant</p>
                 </div>
               </div>
             </div>
@@ -70,12 +65,6 @@ const ExperienceSection = () => {
             <div className="grid md:grid-cols-2 gap-6">
               {assignments.map((assignment, index) => (
                 <div key={index} className="card-professional p-6">
-                  {/* Period Badge */}
-                  <div className="inline-flex items-center gap-2 px-3 py-1 bg-secondary text-muted-foreground rounded-full text-xs font-medium mb-4">
-                    <Calendar size={12} />
-                    {assignment.period}
-                  </div>
-
                   {/* Client Name */}
                   <h4 className="font-display text-lg font-semibold text-foreground mb-1">
                     {assignment.client}
