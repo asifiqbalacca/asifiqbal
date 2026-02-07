@@ -1,12 +1,11 @@
 import { Building2, Calendar, CheckCircle2 } from "lucide-react";
 
 const ExperienceSection = () => {
-  const experiences = [
+  const assignments = [
     {
-      company: "MR. DIY",
-      role: "Trainee Accountant – Inventory Count Assignment",
+      client: "MR. DIY",
+      type: "Inventory Count Assignment",
       period: "Dec 2025 – Present",
-      firm: "HODA VASI CHOWDHURY & CO",
       responsibilities: [
         "Conducted physical inventory counts at MR. DIY retail locations",
         "Reconciled stock with QubeERP records for accuracy verification",
@@ -15,10 +14,9 @@ const ExperienceSection = () => {
       ],
     },
     {
-      company: "KANSAI NEROLAC PAINTS (BANGLADESH) LTD.",
-      role: "Trainee Accountant – Audit Assignment",
+      client: "KANSAI NEROLAC PAINTS (BANGLADESH) LTD.",
+      type: "Audit Assignment",
       period: "Previous",
-      firm: "HODA VASI CHOWDHURY & CO",
       responsibilities: [
         "Executed audit testing across major financial statement areas",
         "Performed vouching, reconciliations, confirmations, and analytical reviews",
@@ -45,55 +43,54 @@ const ExperienceSection = () => {
 
           {/* Timeline */}
           <div className="relative">
-            {/* Timeline Line */}
-            <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-gold via-primary/30 to-transparent hidden md:block" />
-
-            {/* Experience Items */}
-            <div className="space-y-12">
-              {experiences.map((exp, index) => (
-                <div
-                  key={index}
-                  className={`relative md:grid md:grid-cols-2 gap-8 ${
-                    index % 2 === 0 ? "" : "md:direction-rtl"
-                  }`}
-                >
-                  {/* Timeline Dot */}
-                  <div className="absolute left-0 md:left-1/2 -translate-x-1/2 w-4 h-4 bg-gold rounded-full border-4 border-background shadow-soft hidden md:block" />
-
-                  {/* Content Card */}
-                  <div className={`card-professional p-8 ${index % 2 === 0 ? "md:mr-8" : "md:ml-8 md:col-start-2"}`}>
-                    {/* Period Badge */}
-                    <div className="inline-flex items-center gap-2 px-3 py-1 bg-gold/10 text-gold rounded-full text-sm font-medium mb-4">
-                      <Calendar size={14} />
-                      {exp.period}
-                    </div>
-
-                    {/* Company & Firm */}
-                    <div className="flex items-start gap-3 mb-4">
-                      <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <Building2 className="w-5 h-5 text-primary" />
-                      </div>
-                      <div>
-                        <h3 className="font-display text-xl font-semibold text-foreground">
-                          {exp.company}
-                        </h3>
-                        <p className="text-sm text-muted-foreground">{exp.firm}</p>
-                      </div>
-                    </div>
-
-                    {/* Role */}
-                    <p className="text-foreground font-medium mb-4">{exp.role}</p>
-
-                    {/* Responsibilities */}
-                    <ul className="space-y-2">
-                      {exp.responsibilities.map((resp, respIndex) => (
-                        <li key={respIndex} className="flex items-start gap-2 text-sm text-muted-foreground">
-                          <CheckCircle2 size={16} className="text-gold flex-shrink-0 mt-0.5" />
-                          <span>{resp}</span>
-                        </li>
-                      ))}
-                    </ul>
+            {/* Firm Card */}
+            <div className="card-professional p-8 mb-10">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Building2 className="w-7 h-7 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-display text-2xl font-bold text-foreground">
+                    HODA VASI CHOWDHURY & CO
+                  </h3>
+                  <p className="text-muted-foreground">Chartered Accountants</p>
+                  <div className="inline-flex items-center gap-2 px-3 py-1 bg-gold/10 text-gold rounded-full text-sm font-medium mt-2">
+                    <Calendar size={14} />
+                    Trainee Accountant • Dec 2025 – Present
                   </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Assignments */}
+            <h3 className="font-display text-xl font-semibold text-foreground mb-6 ml-2">
+              Client Assignments
+            </h3>
+            
+            <div className="grid md:grid-cols-2 gap-6">
+              {assignments.map((assignment, index) => (
+                <div key={index} className="card-professional p-6">
+                  {/* Period Badge */}
+                  <div className="inline-flex items-center gap-2 px-3 py-1 bg-secondary text-muted-foreground rounded-full text-xs font-medium mb-4">
+                    <Calendar size={12} />
+                    {assignment.period}
+                  </div>
+
+                  {/* Client Name */}
+                  <h4 className="font-display text-lg font-semibold text-foreground mb-1">
+                    {assignment.client}
+                  </h4>
+                  <p className="text-sm text-gold font-medium mb-4">{assignment.type}</p>
+
+                  {/* Responsibilities */}
+                  <ul className="space-y-2">
+                    {assignment.responsibilities.map((resp, respIndex) => (
+                      <li key={respIndex} className="flex items-start gap-2 text-sm text-muted-foreground">
+                        <CheckCircle2 size={14} className="text-gold flex-shrink-0 mt-0.5" />
+                        <span>{resp}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               ))}
             </div>
