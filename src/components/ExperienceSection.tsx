@@ -22,6 +22,16 @@ const ExperienceSection = () => {
         "Audited FDRs, loans & borrowings ensuring compliance with accounting standards",
       ],
     },
+    {
+      client: "CIMSOLUTIONS BANGLADESH LTD.",
+      type: "Statutory Audit — Audit In-Charge",
+      responsibilities: [
+        "Led and managed the statutory audit for FY 2025, overseeing planning, risk assessment, and execution in compliance with IFRS and ISA",
+        "Supervised team members, reviewed working papers, and ensured timely completion of fieldwork",
+        "Performed substantive testing and analytical review across revenue, receivables, advances & prepayments, PPE, loyalty credit, expenses, and taxation",
+        "Coordinated with senior management to resolve audit findings and supported finalization of audited financial statements and audit report",
+      ],
+    },
   ];
 
   return (
