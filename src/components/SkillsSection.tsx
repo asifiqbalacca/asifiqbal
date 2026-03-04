@@ -26,6 +26,12 @@ const SkillsSection = () => {
       level: "Advanced",
       percentage: 80,
     },
+    {
+      icon: Scale,
+      name: "International Standards on Auditing (ISA)",
+      level: "Proficient",
+      percentage: 80,
+    },
   ];
 
   const certifications = [
