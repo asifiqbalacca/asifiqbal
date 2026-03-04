@@ -82,6 +82,10 @@ const ExperienceSection = () => {
                   <h4 className="font-display text-lg font-semibold text-foreground mb-1">
                     {assignment.client}
                   </h4>
+                  <div className="flex items-center gap-2 mb-4">
+                    <Calendar size={14} className="text-muted-foreground" />
+                    <span className="text-sm text-muted-foreground">{assignment.period}</span>
+                  </div>
                   <p className="text-sm text-gold font-medium mb-4">{assignment.type}</p>
 
                   {/* Responsibilities */}
