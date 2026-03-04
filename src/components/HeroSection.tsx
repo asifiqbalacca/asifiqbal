@@ -30,7 +30,7 @@ const HeroSection = () => {
 
           {/* Title */}
           <p className="text-xl md:text-2xl text-muted-foreground font-light mb-8 animate-slide-up" style={{ animationDelay: "0.2s" }}>
-            Trainee Accountant • Aspiring ACCA Professional
+            Auditor • Aspiring ACCA Professional
           </p>
 
           {/* Divider */}
