@@ -1,4 +1,4 @@
-import { FileSpreadsheet, Cloud, BookCheck, Monitor, Award } from "lucide-react";
+import { FileSpreadsheet, Cloud, BookCheck, Monitor, Award, Scale } from "lucide-react";
 
 const SkillsSection = () => {
   const skills = [
@@ -24,6 +24,12 @@ const SkillsSection = () => {
       icon: Monitor,
       name: "Computer Literacy",
       level: "Advanced",
+      percentage: 80,
+    },
+    {
+      icon: Scale,
+      name: "International Standards on Auditing (ISA)",
+      level: "Proficient",
       percentage: 80,
     },
   ];
