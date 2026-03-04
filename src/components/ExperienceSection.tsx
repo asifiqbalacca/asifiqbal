@@ -3,13 +3,13 @@ import { Building2, Calendar, CheckCircle2 } from "lucide-react";
 const ExperienceSection = () => {
   const assignments = [
     {
-      client: "MR. DIY",
-      type: "Inventory Count Assignment",
+      client: "CIMSOLUTIONS BANGLADESH LTD.",
+      type: "Statutory Audit — Audit In-Charge",
       responsibilities: [
-        "Conducted physical inventory counts at MR. DIY retail locations",
-        "Reconciled stock with QubeERP records for accuracy verification",
-        "Documented observation findings and discrepancies",
-        "Obtained management representations on inventory accuracy and completeness",
+        "Led and managed the statutory audit for FY 2025, overseeing planning, risk assessment, and execution in compliance with IFRS and ISA",
+        "Supervised team members, reviewed working papers, and ensured timely completion of fieldwork",
+        "Performed substantive testing and analytical review across revenue, receivables, advances & prepayments, PPE, loyalty credit, expenses, and taxation",
+        "Coordinated with senior management to resolve audit findings and supported finalization of audited financial statements and audit report",
       ],
     },
     {
@@ -23,13 +23,13 @@ const ExperienceSection = () => {
       ],
     },
     {
-      client: "CIMSOLUTIONS BANGLADESH LTD.",
-      type: "Statutory Audit — Audit In-Charge",
+      client: "MR. DIY",
+      type: "Inventory Count Assignment",
       responsibilities: [
-        "Led and managed the statutory audit for FY 2025, overseeing planning, risk assessment, and execution in compliance with IFRS and ISA",
-        "Supervised team members, reviewed working papers, and ensured timely completion of fieldwork",
-        "Performed substantive testing and analytical review across revenue, receivables, advances & prepayments, PPE, loyalty credit, expenses, and taxation",
-        "Coordinated with senior management to resolve audit findings and supported finalization of audited financial statements and audit report",
+        "Conducted physical inventory counts at MR. DIY retail locations",
+        "Reconciled stock with QubeERP records for accuracy verification",
+        "Documented observation findings and discrepancies",
+        "Obtained management representations on inventory accuracy and completeness",
       ],
     },
   ];
