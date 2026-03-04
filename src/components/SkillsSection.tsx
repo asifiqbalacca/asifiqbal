@@ -1,4 +1,4 @@
-import { FileSpreadsheet, Cloud, BookCheck, Monitor, Award } from "lucide-react";
+import { FileSpreadsheet, Cloud, BookCheck, Monitor, Award, Scale } from "lucide-react";
 
 const SkillsSection = () => {
   const skills = [
