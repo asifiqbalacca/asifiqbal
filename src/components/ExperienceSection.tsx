@@ -5,6 +5,7 @@ const ExperienceSection = () => {
     {
       client: "CIMSOLUTIONS BANGLADESH LTD.",
       type: "Statutory Audit — Audit In-Charge",
+      period: "23 Feb 2026 – Present",
       responsibilities: [
         "Led and managed the statutory audit for FY 2025, overseeing planning, risk assessment, and execution in compliance with IFRS and ISA",
         "Supervised team members, reviewed working papers, and ensured timely completion of fieldwork",
@@ -15,6 +16,7 @@ const ExperienceSection = () => {
     {
       client: "KANSAI NEROLAC PAINTS (BANGLADESH) LTD.",
       type: "Audit Assignment",
+      period: "7 Jan 2026 – 27 Jan 2026",
       responsibilities: [
         "Executed audit testing across major financial statement areas",
         "Performed vouching, reconciliations, confirmations, and analytical reviews",
@@ -25,6 +27,7 @@ const ExperienceSection = () => {
     {
       client: "MR. DIY",
       type: "Inventory Count Assignment",
+      period: "1 Jan 2026",
       responsibilities: [
         "Conducted physical inventory counts at MR. DIY retail locations",
         "Reconciled stock with QubeERP records for accuracy verification",
