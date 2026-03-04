@@ -65,7 +65,7 @@ const ExperienceSection = () => {
                     HODA VASI CHOWDHURY & CO
                   </h3>
                   <p className="text-muted-foreground">Chartered Accountants</p>
-                  <p className="text-gold font-medium text-sm mt-2">Trainee Accountant</p>
+                  <p className="text-gold font-medium text-sm mt-2">Auditor</p>
                 </div>
               </div>
             </div>
