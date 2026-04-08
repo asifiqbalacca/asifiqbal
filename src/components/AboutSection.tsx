@@ -38,13 +38,13 @@ const AboutSection = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Text Content */}
             <div className="space-y-6">
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-base font-body text-muted-foreground leading-relaxed">
                 ACCA Applied Skills candidate with hands-on experience in audit and accounting as an 
                 <span className="text-foreground font-medium"> Auditor at Hoda Vasi Chowdhury & Co</span>. 
                 Experienced in inventory observation, audit documentation, vouching, reconciliations, 
                 confirmations, and analytical review in line with applicable accounting standards.
               </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-base font-body text-muted-foreground leading-relaxed">
                 <span className="text-foreground font-medium">Xero Advisor Certified</span> with strong 
                 Excel and IFRS knowledge, seeking to grow in audit and financial reporting roles.
               </p>
