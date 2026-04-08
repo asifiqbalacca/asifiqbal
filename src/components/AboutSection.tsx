@@ -27,7 +27,7 @@ const AboutSection = () => {
           <div className="text-center mb-16">
             <span className="text-sm font-medium tracking-widest text-gold uppercase">About Me</span>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mt-4 mb-6">
-              About
+              About Me
             </h2>
             <div className="flex justify-center">
               <div className="section-divider" />
