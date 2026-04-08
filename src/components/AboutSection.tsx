@@ -27,7 +27,7 @@ const AboutSection = () => {
           <div className="text-center mb-16">
             <span className="text-sm font-medium tracking-widest text-gold uppercase">About Me</span>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mt-4 mb-6">
-              Career Objectives
+              About
             </h2>
             <div className="flex justify-center">
               <div className="section-divider" />
@@ -39,15 +39,14 @@ const AboutSection = () => {
             {/* Text Content */}
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Looking for an opportunity to apply in a professional work environment where I can 
-                develop my <span className="text-foreground font-medium">ACCA qualification</span> and 
-                gain plenty of practical experience in accounting, financial reporting, tax computation, 
-                and audit procedures.
+                ACCA Applied Skills candidate with hands-on experience in audit and accounting as an 
+                <span className="text-foreground font-medium"> Auditor at Hoda Vasi Chowdhury & Co</span>. 
+                Experienced in inventory observation, audit documentation, vouching, reconciliations, 
+                confirmations, and analytical review in line with applicable accounting standards.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I am enthusiastic about the opportunity to further discuss how my background, skills, 
-                and enthusiasm for <span className="text-foreground font-medium">operational excellence</span> can 
-                contribute to the continued success of the company and my own professional development.
+                <span className="text-foreground font-medium">Xero Advisor Certified</span> with strong 
+                Excel and IFRS knowledge, seeking to grow in audit and financial reporting roles.
               </p>
               
               {/* Stats */}
