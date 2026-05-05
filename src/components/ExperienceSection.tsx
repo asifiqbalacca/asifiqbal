@@ -3,9 +3,20 @@ import { Building2, Calendar, CheckCircle2 } from "lucide-react";
 const ExperienceSection = () => {
   const assignments = [
     {
+      client: "VIYELLATEX GROUP",
+      type: "Special Payroll Audit Assignment",
+      period: "19 Apr 2026 – Present",
+      responsibilities: [
+        "Leading special payroll audit assignment across four group companies: Viyellatex Ltd, Interfab Shirt Manufacturing Ltd, Eco Couture Ltd, and Ecofab Ltd",
+        "Reviewing payroll processes, controls, and compliance with applicable labor and tax regulations",
+        "Performing substantive testing on payroll computations, deductions, and disbursements",
+        "Identifying control gaps and reporting findings to management with recommendations",
+      ],
+    },
+    {
       client: "CIMSOLUTIONS BANGLADESH LTD.",
       type: "Statutory Audit — Audit In-Charge",
-      period: "23 Feb 2026 – Present",
+      period: "23 Feb 2026 – 20 Apr 2026",
       responsibilities: [
         "Led and managed the statutory audit for FY 2025, overseeing planning, risk assessment, and execution in compliance with IFRS and ISA",
         "Supervised team members, reviewed working papers, and ensured timely completion of fieldwork",

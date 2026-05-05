@@ -1,4 +1,6 @@
 import { Mail, Phone, Linkedin, MapPin, Send } from "lucide-react";
+import accaLogo from "@/assets/acca-logo.png";
+import hvcLogo from "@/assets/hvc-logo.png";
 
 const ContactSection = () => {
   const contactInfo = [
@@ -27,14 +29,6 @@ const ContactSection = () => {
       href: null,
     },
   ];
-
-  const reference = {
-    name: "Yusha Al Khondkar FCCA",
-    title: "Lead Specialist, Internal Audit & Investigation",
-    company: "Grameenphone Ltd",
-    email: "yushakhondkar@gmail.com",
-    phone: "+880171-1091323",
-  };
 
   return (
     <section id="contact" className="py-24 bg-primary text-primary-foreground">
@@ -97,37 +91,35 @@ const ContactSection = () => {
               </a>
             </div>
 
-            {/* Reference */}
+            {/* Affiliations */}
             <div>
-              <h3 className="font-display text-2xl font-semibold mb-6">Professional Reference</h3>
+              <h3 className="font-display text-2xl font-semibold mb-6">Affiliations</h3>
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8">
-                <div className="flex items-start gap-4 mb-6">
-                  <div className="w-16 h-16 bg-gold/20 rounded-full flex items-center justify-center text-gold font-display text-2xl font-bold">
-                    YK
+                <div className="grid grid-cols-2 gap-6 items-center">
+                  <div className="bg-white rounded-lg p-6 flex items-center justify-center h-32">
+                    <img
+                      src={accaLogo}
+                      alt="ACCA logo"
+                      loading="lazy"
+                      width={512}
+                      height={512}
+                      className="max-h-20 w-auto object-contain"
+                    />
                   </div>
-                  <div>
-                    <h4 className="font-display text-xl font-semibold text-primary-foreground">
-                      {reference.name}
-                    </h4>
-                    <p className="text-primary-foreground/70 text-sm">{reference.title}</p>
-                    <p className="text-gold text-sm font-medium">{reference.company}</p>
+                  <div className="bg-white rounded-lg p-6 flex items-center justify-center h-32">
+                    <img
+                      src={hvcLogo}
+                      alt="Hoda Vasi Chowdhury & Co logo"
+                      loading="lazy"
+                      width={512}
+                      height={512}
+                      className="max-h-20 w-auto object-contain"
+                    />
                   </div>
                 </div>
-                <div className="space-y-3 pl-20">
-                  <a
-                    href={`mailto:${reference.email}`}
-                    className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-gold transition-colors"
-                  >
-                    <Mail size={14} />
-                    {reference.email}
-                  </a>
-                  <a
-                    href={`tel:${reference.phone}`}
-                    className="flex items-center gap-2 text-sm text-primary-foreground/70 hover:text-gold transition-colors"
-                  >
-                    <Phone size={14} />
-                    {reference.phone}
-                  </a>
+                <div className="grid grid-cols-2 gap-6 mt-4 text-center">
+                  <p className="text-sm text-primary-foreground/70">ACCA Applied Skills Candidate</p>
+                  <p className="text-sm text-primary-foreground/70">Auditor, Hoda Vasi Chowdhury & Co</p>
                 </div>
               </div>
             </div>
