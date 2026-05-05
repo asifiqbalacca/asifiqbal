@@ -49,7 +49,7 @@ const ContactSection = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="grid lg:grid-cols-2 gap-12 items-stretch">
             {/* Contact Information */}
             <div className="space-y-6">
               <h3 className="font-display text-2xl font-semibold mb-6">Get in Touch</h3>
@@ -91,9 +91,10 @@ const ContactSection = () => {
               </a>
             </div>
 
-            <div>
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8">
-                <div className="grid grid-cols-2 gap-6 items-center">
+            <div className="flex flex-col h-full">
+              <h3 className="font-display text-2xl font-semibold mb-6 invisible" aria-hidden="true">Logos</h3>
+              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 flex-1 flex items-center">
+                <div className="grid grid-cols-2 gap-6 items-center w-full">
                   <div className="bg-white rounded-lg p-6 flex items-center justify-center h-32">
                     <img
                       src={accaLogo}
