@@ -91,9 +91,7 @@ const ContactSection = () => {
               </a>
             </div>
 
-            {/* Affiliations */}
             <div>
-              <h3 className="font-display text-2xl font-semibold mb-6">Affiliations</h3>
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8">
                 <div className="grid grid-cols-2 gap-6 items-center">
                   <div className="bg-white rounded-lg p-6 flex items-center justify-center h-32">
@@ -101,8 +99,6 @@ const ContactSection = () => {
                       src={accaLogo}
                       alt="ACCA logo"
                       loading="lazy"
-                      width={512}
-                      height={512}
                       className="max-h-20 w-auto object-contain"
                     />
                   </div>
@@ -116,10 +112,6 @@ const ContactSection = () => {
                       className="max-h-20 w-auto object-contain"
                     />
                   </div>
-                </div>
-                <div className="grid grid-cols-2 gap-6 mt-4 text-center">
-                  <p className="text-sm text-primary-foreground/70">ACCA Applied Skills Candidate</p>
-                  <p className="text-sm text-primary-foreground/70">Auditor, Hoda Vasi Chowdhury & Co</p>
                 </div>
               </div>
             </div>
