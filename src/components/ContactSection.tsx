@@ -1,4 +1,6 @@
 import { Mail, Phone, Linkedin, MapPin, Send } from "lucide-react";
+import accaLogo from "@/assets/acca-logo.png";
+import hvcLogo from "@/assets/hvc-logo.png";
 
 const ContactSection = () => {
   const contactInfo = [
@@ -27,14 +29,6 @@ const ContactSection = () => {
       href: null,
     },
   ];
-
-  const reference = {
-    name: "Yusha Al Khondkar FCCA",
-    title: "Lead Specialist, Internal Audit & Investigation",
-    company: "Grameenphone Ltd",
-    email: "yushakhondkar@gmail.com",
-    phone: "+880171-1091323",
-  };
 
   return (
     <section id="contact" className="py-24 bg-primary text-primary-foreground">
