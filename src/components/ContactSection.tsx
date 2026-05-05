@@ -1,5 +1,5 @@
 import { Mail, Phone, Linkedin, MapPin, Send } from "lucide-react";
-import accaLogo from "@/assets/acca-logo.png";
+import accaLogo from "@/assets/acca-logo.svg";
 import hvcLogo from "@/assets/hvc-logo.png";
 
 const ContactSection = () => {
