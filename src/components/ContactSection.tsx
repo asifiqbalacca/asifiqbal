@@ -49,7 +49,7 @@ const ContactSection = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Contact Information */}
             <div className="space-y-6">
               <h3 className="font-display text-2xl font-semibold mb-6">Get in Touch</h3>
